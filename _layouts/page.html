@@ -6,8 +6,8 @@
 
 {% seo %}
 
-    <link rel="stylesheet" href="{{ site.url }}{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ site.url }}{{ 'assets/js/scale.fix.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ site.url }}/{{ 'assets/css/style.css?v=' | append: site.github.build_revision }}">
+    <script src="{{ site.url }}/{{ 'assets/js/scale.fix.js' }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!--[if lt IE 9]>
@@ -41,9 +41,8 @@
     </div>
     <footer>
     {% if site.github.is_project_page %}
-      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      <p>Site maintained by <strong>{{ site.github.owner_name }}</strong></p>
     {% endif %}
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
