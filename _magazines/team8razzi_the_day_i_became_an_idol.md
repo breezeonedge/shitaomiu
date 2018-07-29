@@ -10,7 +10,7 @@ title: 팀88랏치 「내가 아이돌이 된 날」
 
 * 정보: Karin [티스토리](http://shimoaoki.tistory.com/634)
 
-![팀8랏치]({{site.url}}/assets/images/magazine_0005.jpg)
+![팀8랏치]({{'assets/images/magazine_0005.jpg' | relative_url}})
 
 47도도부현에서 한명씩 멤버를 뽑아, 전국 각지에서 활동한다는 장대한 프로젝트인 AKB48 Team8. 전례가 없는 개성파 멤버들은 어떤 길을 걸어, 아이돌이 되었을까?
 47명의 멤버 전원에게, 자기자신의 이야기를 들어보았다.
@@ -41,15 +41,15 @@ title: 팀88랏치 「내가 아이돌이 된 날」
 
 팀8의 멤버가 처음 선보인 날은 마침 그녀의 13세 생일. 그 무렵부터 어른 같았지만 더욱 키도 크고 연상인 멤버도 부러워할 정도로 용모 단정하게 되었다. 성격도 침착하고 영리하다. “중학생을 초월”한 소질을 가진 멤버이다.
 
-![팀8랏치]({{site.url}}/assets/images/magazine_0006.jpg)
+![팀8랏치]({{'assets/images/magazine_0006.jpg' | relative_url}})
 
-![팀8랏치]({{site.url}}/assets/images/magazine_0007.jpg)
+![팀8랏치]({{'assets/images/magazine_0007.jpg' | relative_url}})
 
-![팀8랏치]({{site.url}}/assets/images/magazine_0008.jpg)
+![팀8랏치]({{'assets/images/magazine_0008.jpg' | relative_url}})
 
-![팀8랏치]({{site.url}}/assets/images/magazine_0009.jpg)
+![팀8랏치]({{'assets/images/magazine_0009.jpg' | relative_url}})
 
-![팀8랏치]({{site.url}}/assets/images/magazine_0010.jpg)
+![팀8랏치]({{'assets/images/magazine_0010.jpg' | relative_url}})
 
 ---
 

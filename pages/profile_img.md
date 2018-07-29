@@ -9,19 +9,19 @@ permalink: profile_img.html
 
 # 프로필
 
-![기본 프로필]({{site.url}}/assets/images/profile_0001.jpg)
+![기본 프로필]({{'assets/images/profile_0001.jpg' | relative_url}})
 
-![1화 공개후]({{site.url}}/assets/images/profile_0002.jpg)
+![1화 공개후]({{'assets/images/profile_0002.jpg' | relative_url}})
 
-![농어촌 전형]({{site.url}}/assets/images/profile_0003.jpg)
+![농어촌 전형]({{'assets/images/profile_0003.jpg' | relative_url}})
 
-![팀8]({{site.url}}/assets/images/profile_0004.jpg)
+![팀8]({{'assets/images/profile_0004.jpg' | relative_url}})
 
 ---
 
 # 슬로건
 
-![슬로건]({{site.url}}/assets/images/profile_0005.jpg)
+![슬로건]({{'assets/images/profile_0005.jpg' | relative_url}})
 
 ---
 

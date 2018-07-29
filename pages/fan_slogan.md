@@ -9,7 +9,7 @@ permalink: fan_slogan.html
 
 # 미우짱님
 
-![지하철 광고]({{site.url}}/assets/images/slogan_0006.png)
+![지하철 광고]({{'assets/images/slogan_0006.png' | relative_url}})
 
 ---
 
@@ -17,9 +17,9 @@ permalink: fan_slogan.html
 
 [갤로그](http://gallog.dcinside.com/greatmiu)
 
-![슬로건]({{site.url}}/assets/images/slogan_0004.png)
+![슬로건]({{'assets/images/slogan_0004.png' | relative_url}})
 
-![슬로건]({{site.url}}/assets/images/slogan_0005.png)
+![슬로건]({{'assets/images/slogan_0005.png' | relative_url}})
 
 ---
 
@@ -27,9 +27,9 @@ permalink: fan_slogan.html
 
 [갤로그](http://gallog.dcinside.com/hsdwj970)
 
-![슬로건]({{site.url}}/assets/images/slogan_0001.jpg)
+![슬로건]({{'assets/images/slogan_0001.jpg' | relative_url}})
 
-![슬로건]({{site.url}}/assets/images/slogan_0002.jpg)
+![슬로건]({{'assets/images/slogan_0002.jpg' | relative_url}})
 
 ---
 
@@ -39,9 +39,9 @@ permalink: fan_slogan.html
 
 **공식지하철 광고 (삼성역)**
 
-![지하철 광고]({{site.url}}/assets/images/slogan_0007.jpg)
+![지하철 광고]({{'assets/images/slogan_0007.jpg' | relative_url}})
 
-![슬로건]({{site.url}}/assets/images/slogan_0003.jpg)
+![슬로건]({{'assets/images/slogan_0003.jpg' | relative_url}})
 
 ---
 

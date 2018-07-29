@@ -13,7 +13,7 @@ title: 모델프레스 2017-07-25
 * 역자: [Keynny M.](http://gallog.dcinside.com/neckhunt) [게시글](http://gall.dcinside.com/mgallery/board/view/?id=shitaomiu&no=13918)
 * 식자: ㅇㅇ [게시글](http://gall.dcinside.com/mgallery/board/view/?id=shitaomiu&no=14267)
 
-![모델프레스 2017-07-25]({{site.url}}/assets/images/magazine_0001.png)
+![모델프레스 2017-07-25]({{'assets/images/magazine_0001.png' | relative_url}})
 
 ---
 
