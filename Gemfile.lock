@@ -243,7 +243,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-github-metadata
+  jekyll-feed (~> 0.6)
+  jekyll-github-metadata (~> 2.9.4)
   jekyll-theme-modernist
   tzinfo-data
 

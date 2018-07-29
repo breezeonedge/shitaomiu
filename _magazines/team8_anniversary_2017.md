@@ -12,7 +12,7 @@ title: 팀8 3주년 기념북 (2017)
 * 역자: ㅇㅇ [게시글](http://gall.dcinside.com/mgallery/board/view/?id=shitaomiu&no=7787)
 * 식자: ㅇㅇ [게시글](http://gall.dcinside.com/mgallery/board/view/?id=shitaomiu&no=8373)
 
-![팀8 1주년 기념북](/assets/images/magazine_0004.jpg)
+![팀8 1주년 기념북]({{site.url}}/assets/images/magazine_0004.jpg)
 
 ---
 

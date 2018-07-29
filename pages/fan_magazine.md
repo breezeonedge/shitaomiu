@@ -9,21 +9,21 @@ permalink: fan_magazine.html
 
 # 모델프레스 2017-07-25
 
-* [2017-07-25](./magazines/modelpress_20170725.html)
+* [2017-07-25]({{site.url}}/magazines/modelpress_20170725.html)
 
 ---
 
 # 팀8 기념북
 
-* [팀8 3주년 기념북 (2017)](./magazines/team8_anniversary_2017.html)
-* [팀8 3주년 기념북 (2016)](./magazines/team8_anniversary_2016.html)
-* [팀8 3주년 기념북 (2015)](./magazines/team8_anniversary_2015.html)
+* [팀8 3주년 기념북 (2017)]({{site.url}}/magazines/team8_anniversary_2017.html)
+* [팀8 3주년 기념북 (2016)]({{site.url}}/magazines/team8_anniversary_2016.html)
+* [팀8 3주년 기념북 (2015)]({{site.url}}/magazines/team8_anniversary_2015.html)
 
 ---
 
 # 팀88랏치
 
-* [「내가 아이돌이 된 날」](./magazines/team8razzi_the_day_i_became_an_idol.html)
+* [「내가 아이돌이 된 날」]({{site.url}}/magazines/team8razzi_the_day_i_became_an_idol.html)
 
 ---
 
