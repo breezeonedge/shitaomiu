@@ -7,6 +7,14 @@ title: 팬 이미지
 permalink: fan_img.html
 ---
 
+# 초코민트님
+
+[갤로그](http://gallog.dcinside.com/greatmiu)
+
+![팬아트]({{'assets/images/fan_0091.png' | relative_url}})
+
+---
+
 # 무명의일러님
 
 ![팬아트]({{'assets/images/fan_0088.jpg' | relative_url}})
@@ -26,6 +34,10 @@ permalink: fan_img.html
 # 미우한글팬님
 
 [갤로그](http://gallog.dcinside.com/studioji)
+
+![팬아트]({{'assets/images/fan_0090.jpg' | relative_url}})
+
+![팬아트]({{'assets/images/fan_0089.jpg' | relative_url}})
 
 ![팬아트]({{'assets/images/fan_0012.jpg' | relative_url}})
 
