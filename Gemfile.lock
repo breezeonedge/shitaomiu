@@ -242,8 +242,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 188)
-  jekyll (~> 3.7.3)
+  github-pages
+  jekyll-github-metadata
   jekyll-theme-modernist
   tzinfo-data
 
