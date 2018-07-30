@@ -40,7 +40,7 @@ title: 소개
 
 # 랭킹 추이
 
-[링크]({{ site.baseurl }}{% link pages/ranking.md %})
+[랭킹]({{ site.baseurl }}{% link pages/ranking.md %})
 
 ---
 

@@ -18,10 +18,11 @@ email: breezeonedge@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   일본 AKB48 멤버이며 한국 케이블 방송인 Mnet 프로듀스48 에 출연중인 시타오 미우(下尾みう)와 관련된 자료를 정리합니다.
 baseurl: /shitaomiu # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://breezeonedge.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: breezeonedge
 github_username:  breezeonedge
 show_downloads: false
+locale: "ko-KR"
 
 # Build settings
 markdown: kramdown

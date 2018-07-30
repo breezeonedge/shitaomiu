@@ -4,6 +4,7 @@
 
 layout: page
 title: 팀8 3주년 기념북 (2017)
+icon: far fa-newspaper
 ---
 
 # 팀8 3주년 기념북 (2017)

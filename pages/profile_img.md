@@ -4,6 +4,7 @@
 
 layout: page
 title: 이미지 프로필
+icon: fas fa-user-circle
 permalink: profile_img.html
 ---
 

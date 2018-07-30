@@ -4,6 +4,7 @@
 
 layout: page
 title: 팀88랏치 「내가 아이돌이 된 날」
+icon: far fa-newspaper
 ---
 
 # 팀88랏치 「내가 아이돌이 된 날」

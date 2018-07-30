@@ -66,7 +66,7 @@ header {
   p {
     margin:0;
     color:#61778B;
-    width:300px;
+    width:380px;
     font-size:13px;
 
     &.view {
@@ -90,14 +90,10 @@ header {
       list-style:none;
       position:absolute;
       z-index:1;
-      right:40px;
+      right:20px;
       top:20px;
       padding:1px 0;
       width:auto;
-
-      img {
-        height:65px;
-      }
     }
   }
 

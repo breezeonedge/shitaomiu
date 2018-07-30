@@ -4,6 +4,7 @@
 
 layout: gallery
 title: 팬 이미지
+icon: fas fa-paint-brush
 permalink: fan_art.html
 arts: arts
 ---

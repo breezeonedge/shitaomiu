@@ -4,6 +4,7 @@
 
 layout: gallery
 title: 팬 슬로건
+icon: far fa-flag
 permalink: fan_slogan.html
 arts: slogans
 ---

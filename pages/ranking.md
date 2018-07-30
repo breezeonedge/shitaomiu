@@ -4,6 +4,7 @@
 
 layout: page
 title: 랭킹
+icon: fas fa-chart-line
 permalink: ranking.html
 ---
 
@@ -14,10 +15,10 @@ permalink: ranking.html
 | 8            | 예정               |       | 2차 순위발표             |
 | 7            | 순위 미공개          |       | 현장 투표 / 댄스 16등 / 369표        |
 | 6            | 순위 미공개          |       |                       |
-| 5            | 36                | +3    | 1차 순위발표 / 160,881표  |
+| 5            | 36                | <span style="color:red"><i class="fas fa-arrow-up" aria-hidden="true" alt="트위터" ></i> 3</span>    | 1차 순위발표 / 160,881표  |
 | 4            | 순위 미공개          |       |                       |
-| 3            | 39                | +6    | 현장 투표 / 116표        |
-| 2            | 45                | -4    |                       |
+| 3            | 39                | <span style="color:red"><i class="fas fa-arrow-up" aria-hidden="true" alt="트위터" ></i> 6</span>    | 현장 투표 / 116표        |
+| 2            | 45                | <span style="color:blue"><i class="fas fa-arrow-down" aria-hidden="true" alt="트위터" ></i> 4</span>    |                       |
 | 1            | 41 -> 50          |       |                       |
 
 ---
