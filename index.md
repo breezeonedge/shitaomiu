@@ -20,29 +20,41 @@ title: 소개
 
 # 프로필
 
-[텍스트](./profile_text.html)
+[텍스트]({{ site.baseurl }}{% link pages/profile_text.md %})
 
-[이미지](./profile_img.html)
+[이미지]({{ site.baseurl }}{% link pages/profile_img.md %})
+
+---
+
+# 투표
+
+[엠넷 투표](http://produce48.mnet.com/pc/vote) (2차 순위발표 이후)
+
+[지마켓 모바일 투표](http://m.gmarket.co.kr/event/2018/06/0601_produce/vote.asp) (2차 순위발표 이후)
+
+[국프의 정원 후원](https://produce48.kr/m48_detail.php?idx=31&cate=hug) (2차 순위발표 이후)
+
+[투표가이드](https://docs.google.com/document/d/10Bg1XA91uq4hBnx1so26qAUNVXBRztuSPv6lc0LMgKw/edit?usp=sharing) (가능)
 
 ---
 
 # 랭킹 추이
 
-[링크](./ranking.html)
+[링크]({{ site.baseurl }}{% link pages/ranking.md %})
 
 ---
 
 # 잡지
 
-[잡지](./fan_magazine.html)
+[잡지]({{ site.baseurl }}{% link pages/fan_magazine.md %})
 
 ---
 
 # 팬 이미지
 
-[팬 이미지](./fan_img.html)
+[팬 이미지]({{ site.baseurl }}{% link pages/fan_art.md %})
 
-[팬 슬로건](./fan_slogan.html)
+[팬 슬로건]({{ site.baseurl }}{% link pages/fan_slogan.md %})
 
 ---
 

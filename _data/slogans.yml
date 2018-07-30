@@ -1,0 +1,24 @@
+- name: 미우짱
+  images:
+    - path: slogan_0006.png
+- name: 초코민트
+  link:
+    title: 갤로그
+    url: http://gallog.dcinside.com/greatmiu
+  images:
+    - path: slogan_0004.png
+    - path: slogan_0005.png
+- name: 미우단이
+  link:
+    title: 갤로그
+    url: http://gallog.dcinside.com/hsdwj970
+  images:
+    - path: slogan_0001.jpg
+    - path: slogan_0002.jpg
+- name: 쑤아야
+  link:
+    title: 갤로그
+    url: http://gallog.dcinside.com/nakoyeon1128
+  images:
+    - path: slogan_0007.jpg
+    - path: slogan_0003.jpg
