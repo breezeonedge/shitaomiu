@@ -1,8 +1,18 @@
+- name: karaagezj
+  link:
+    title: 트위터
+    url: https://www.instagram.com/karaagezj
+  images:
+    - path: fan_0092.jpg
+    - path: fan_0093.jpg
+    - path: fan_0094.jpg
 - name: 초코민트
   link:
     title: 갤로그
     url: http://gallog.dcinside.com/greatmiu
   images:
+    - path: fan_0096.png
+    - path: fan_0095.png
     - path: fan_0091.png
 - name: 무명의일러
   images:
