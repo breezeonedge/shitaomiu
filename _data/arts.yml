@@ -27,6 +27,10 @@
     title: 갤로그
     url: http://gallog.dcinside.com/studioji
   images:
+    - path: fan_0097.jpg
+    - path: fan_0098.png
+    - path: fan_0099.png
+    - path: fan_0100.png
     - path: fan_0090.jpg
     - path: fan_0089.jpg
     - path: fan_0012.jpg
