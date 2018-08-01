@@ -65,7 +65,7 @@ cloudjs:
 
 <canvas id="gardenChart" width="400" height="200"></canvas>
 
->> 출처: [국프의 정원](https://produce48.kr/m48_detail.php?idx=31&cate=hug)
+> 출처: [국프의 정원](https://produce48.kr/m48_detail.php?idx=31&cate=hug)
 
 숫자 3 은 금지다
 
