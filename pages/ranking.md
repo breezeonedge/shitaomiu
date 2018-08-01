@@ -70,188 +70,188 @@ cloudjs:
 숫자 3 은 금지다
 
 <script>
-var mnetCtx = document.getElementById("mnetChart");
-var mnetChart = new Chart(mnetCtx, {
-    type: 'bar',
-    data: {
-        labels: ["1주차", "2주차", "3주차", "4주차", "5주차", "6주차", "7주차", "8주차"],
-        datasets: [{
-            type: 'bar',
-            label: '100분위 (%)',
-            data: [41/96*100, 45/96*100, 39/96*100, NaN, 36/58*100, NaN, NaN, NaN],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-/*
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-            ]
-*/            
-        },{
-            type: 'line',
-            label: '순위',
-            fill: false,
-            spanGaps: true,
-            data: [41, 45, 39, NaN, 36, NaN, NaN, NaN],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255,99,132,1)',
-            borderWidth: 1
-        },]
-    },
-    options: {
-        responsive: true,
-        title: {
-            display: false,
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: true
-        },
-        scales: {
-            yAxes: [{
-                type: 'linear',
-                position: 'left',
-                scaleLabel: {
-                    display: false,
-                },
-                ticks: {
-                    display: true,
-                    min: 0,
-                    max: 100,
-                    reverse: false,
-                    beginAtZero: true,
-                },
-                gridLines: {
-                    display: false
+window.onload = function() {
+    var mnetCtx = document.getElementById("mnetChart");
+    var mnetChart = new Chart(mnetCtx, {
+        type: 'bar',
+        data: {
+            labels: ["1주차", "2주차", "3주차", "4주차", "5주차", "6주차", "7주차", "8주차"],
+            datasets: [{
+                type: 'line',
+                label: '순위',
+                fill: false,
+                spanGaps: true,
+                data: [41, 45, 39, NaN, 36, NaN, NaN, NaN],
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(255,99,132,1)',
+                borderWidth: 1,
+                datalabels: {
+                    align: 'end',
+                    anchor: 'end',
+                    formatter: function(value, context) {
+                        return value + '위';
+                    }
                 }
             },{
-                type: 'linear',
-                position: 'right',
-                scaleLabel: {
-                    display: false,
-                },
-                ticks: {
-                    display: true,
-                    min: 1,
-                    max: 96,
-                    reverse: true,
-                    beginAtZero: false,
-                },
-                gridLines: {
-                    drawOnChartArea: true
-                }
-            }],
-            xAxes: [{
-                ticks: {
-                    beginAtZero:true,
+                type: 'line',
+                label: '100분위',
+                fill: false,
+                spanGaps: true,
+                data: [(96-41)/96*100, (96-45)/96*100, (96-39)/96*100, NaN, (58-36)/58*100, NaN, NaN, NaN],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                datalabels: {
+                    align: 'start',
+                    anchor: 'start',
+                    formatter: function(value, context) {
+                        return Math.round(value) + '%';
+                    }
                 }
             }]
         },
-        plugins: {
-            datalabels: {
-                backgroundColor: function(context) {
-                    return context.dataset.backgroundColor;
-                },
-                borderRadius: 4,
-                formatter: Math.round,
-                font: {
-                    weight: 'bold'
+        options: {
+            responsive: true,
+            title: {
+                display: false,
+            },
+            tooltips: {
+            mode: 'index',
+            intersect: true
+            },
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    position: 'left',
+                    scaleLabel: {
+                        display: false,
+                    },
+                    ticks: {
+                        display: true,
+                        min: 1,
+                        max: 96,
+                        reverse: true,
+                        beginAtZero: false,
+                    },
+                    gridLines: {
+                        drawOnChartArea: true
+                    }
+                }, {
+                    type: 'linear',
+                    position: 'right',
+                    scaleLabel: {
+                        display: false,
+                    },
+                    ticks: {
+                        display: false,
+                        min: 0,
+                        max: 100,
+                        reverse: false,
+                        beginAtZero: true,
+                    },
+                    gridLines: {
+                        display: false
+                    }
+                }],
+                xAxes: [{
+                    ticks: {
+                        beginAtZero:true,
+                    }
+                }]
+            },
+            plugins: {
+                datalabels: {
+                    backgroundColor: function(context) {
+                        return context.dataset.backgroundColor;
+                    },
+                    borderRadius: 4,
+                    formatter: Math.round,
+                    font: {
+                        weight: 'bold'
+                    }
                 }
             }
         }
-    }
-});
+    });
 
-var gardenCtx = document.getElementById("gardenChart");
-var gardenChart = new Chart(gardenCtx, {
-    type: 'bar',
-    data: {
-        labels: ["1차", "2차", "3차", "4차", "5차"],
-        datasets: [{
-            type: 'bar',
-            label: '1단계(일)',
-            data: [34, 10, 4, NaN, NaN],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1
-/*
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-            ]
-*/            
-        },{
-            type: 'bar',
-            label: '2단계(일)',
-            data: [7, 4, 4, NaN, NaN],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255,99,132,1)',
-            borderWidth: 1
-        },{
-            type: 'bar',
-            label: '3단계(일)',
-            data: [3, 3, 3, NaN, NaN],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1
-        }]
-    },
-    options: {
-        responsive: true,
-        title: {
-            display: false,
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: true
-        },
-        scales: {
-            yAxes: [{
-                stacked: true,
-                scaleLabel: {
-                    display: false,
-                },
-            }],
-            xAxes: [{
-                stacked: true,
-                ticks: {
-                    beginAtZero:true,
-                }
+    var gardenCtx = document.getElementById("gardenChart");
+    var gardenChart = new Chart(gardenCtx, {
+        type: 'bar',
+        data: {
+            labels: ["1차", "2차", "3차", "4차", "5차"],
+            datasets: [{
+                type: 'bar',
+                label: '1단계',
+                data: [34, 10, 4, NaN, NaN],
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+    /*
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                ]
+    */            
+            },{
+                type: 'bar',
+                label: '2단계',
+                data: [7, 4, 4, NaN, NaN],
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(255,99,132,1)',
+                borderWidth: 1
+            },{
+                type: 'bar',
+                label: '3단계',
+                data: [3, 3, 3, NaN, NaN],
+                backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                borderColor: 'rgba(255, 206, 86, 1)',
+                borderWidth: 1
             }]
         },
-        plugins: {
-            datalabels: {
-                backgroundColor: function(context) {
-                    return context.dataset.backgroundColor;
-                },
-                borderRadius: 4,
-                formatter: Math.round,
-                font: {
-                    weight: 'bold'
+        options: {
+            responsive: true,
+            title: {
+                display: false,
+            },
+            tooltips: {
+                mode: 'index',
+                intersect: true
+            },
+            scales: {
+                yAxes: [{
+                    stacked: true,
+                    scaleLabel: {
+                        display: false,
+                    },
+                }],
+                xAxes: [{
+                    stacked: true,
+                    ticks: {
+                        beginAtZero:true,
+                    }
+                }]
+            },
+            plugins: {
+                datalabels: {
+                    borderRadius: 4,
+                    formatter: function(value, context) {
+                        return value + '일';
+                    },
+                    font: {
+                        weight: 'bold'
+                    }
                 }
             }
         }
-    }
-});
-
+    });
+}
 </script>
