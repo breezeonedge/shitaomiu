@@ -51,7 +51,7 @@ cloudjs:
 |:---------------|:------------------------|:-----------------|
 | 2018-08-01     | 4차 / 1단계               | 미정              |
 | **2018-08-01** | **3차 달성 / 11일**        | **미미박스**       |
-| 2018-07-28     | 3차 / 3단계               | 03일              |
+| 2018-07-28     | 3차 / 3단계               | 04일              |
 | 2018-07-24     | 3차 / 2단계               | 04일              |
 | 2018-07-20     | 3차 / 1단계               | 04일              |
 | **2018-07-20** | **2차 달성 / 17일**       | **MYCT 왕관세트**   |
@@ -61,7 +61,7 @@ cloudjs:
 | **2018-07-03** | **1차 달성 / 44일**        | **칼로바이 워터젤리** |
 | 2018-06-30     | 1차 / 3단계               | 03일              |
 | 2018-06-23     | 1차 / 2단계               | 07일              |
-| 2018-05-21     | 1차 / 1단계               | 34일              |
+| 2018-05-21     | 1차 / 1단계               | 33일              |
 
 <canvas id="gardenChart" width="400" height="200"></canvas>
 
@@ -84,7 +84,6 @@ window.onload = function() {
                 data: [41, 45, 39, NaN, 36, NaN, NaN, NaN],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
-                borderWidth: 1,
                 datalabels: {
                     align: 'end',
                     anchor: 'end',
@@ -181,10 +180,9 @@ window.onload = function() {
             datasets: [{
                 type: 'bar',
                 label: '1단계',
-                data: [34, 10, 4, NaN, NaN],
+                data: [33, 10, 4, NaN, NaN],
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgba(54, 162, 235, 1)',
-                borderWidth: 1
     /*
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
@@ -207,14 +205,12 @@ window.onload = function() {
                 data: [7, 4, 4, NaN, NaN],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
-                borderWidth: 1
             },{
                 type: 'bar',
                 label: '3단계',
-                data: [3, 3, 3, NaN, NaN],
+                data: [3, 3, 4, NaN, NaN],
                 backgroundColor: 'rgba(255, 206, 86, 0.2)',
                 borderColor: 'rgba(255, 206, 86, 1)',
-                borderWidth: 1
             }]
         },
         options: {
