@@ -26,7 +26,7 @@ permalink: profile_text.html
 
 | 항목          | 내용               | 비고   |
 |:-------------|:------------------|:------|
-| <i class="fab fa-instagram" aria-hidden="true" alt="인스타그램"></i> 인스타그램     | [링크](https://www.instagram.com/miumiu1343/)     |       |
-| <i class="fab fa-twitter" aria-hidden="true" alt="트위터"></i> 트위터        | [링크](https://www.twitter.com/miumiu_0403/)      |       |
-| <i class="fas fa-pen-square" aria-hidden="true" alt="755"></i> 755  | [링크](https://7gogo.jp/shitao-miu)               |       |
-| <i class="fas fa-video" aria-hidden="true" alt="쇼룸"></i> 쇼룸  | [링크](https://www.showroom-live.com/48_Miu_Shitao)                                            |       |
+| 인스타그램     | [링크](https://www.instagram.com/miumiu1343/)     |       |
+| 트위터        | [링크](https://www.twitter.com/miumiu_0403/)      |       |
+| 755         | [링크](https://7gogo.jp/shitao-miu)               |       |
+| 쇼룸         | [링크](https://www.showroom-live.com/48_Miu_Shitao)       |       |
