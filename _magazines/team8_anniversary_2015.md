@@ -4,7 +4,7 @@
 
 layout: page
 title: 팀8 2주년 기념북 (2016)
-icon: far fa-newspaper
+icon: fa fa-book
 ---
 
 # 팀8 1주년 기념북 (2015)

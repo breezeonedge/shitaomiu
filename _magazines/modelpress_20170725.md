@@ -4,7 +4,7 @@
 
 layout: page
 title: 모델프레스 2017-07-25
-icon: far fa-newspaper
+icon: fa fa-book
 ---
 
 # 모델프레스 2017-07-25

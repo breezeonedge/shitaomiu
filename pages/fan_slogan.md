@@ -4,11 +4,9 @@
 
 layout: gallery
 title: 팬 슬로건
-icon: far fa-flag
+icon: fa fa-flag
 permalink: fan_slogan.html
 arts: slogans
 ---
 
-
 출처 : [디시인사이드 시타오 미우 마이너갤러리](http://shitaomiu.com)
-

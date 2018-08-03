@@ -17,6 +17,8 @@ AKB48 Team8 멤버인 Shitao Miu와 관련된 자료를 모으고 있습니다.
     - 블로그/정적웹사이트 저작도구
     - [공식사이트](https://jekyllrb.com/)
     - [한글문서](https://jekyllrb-ko.github.io/)
+    - 마크업 : [kramdown](https://kramdown.gettalong.org/quickref.html)
+    - 템플릿 : [liquid](https://help.shopify.com/en/themes/liquid)
 
   - GitHub Pages
     - GitHub 저장소 프로젝트용 무료 웹사이트 서비스

@@ -4,7 +4,7 @@
 
 layout: page
 title: 팬 매거진
-icon: far fa-newspaper
+icon: fa fa-book
 permalink: fan_magazine.html
 ---
 

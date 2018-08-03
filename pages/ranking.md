@@ -4,7 +4,7 @@
 
 layout: page
 title: 랭킹
-icon: fas fa-chart-line
+icon: fa fa-line-chart
 permalink: ranking.html
 cloudjs:
   - //cdn.jsdelivr.net/npm/chart.js@2.7.2/dist/Chart.bundle.min.js

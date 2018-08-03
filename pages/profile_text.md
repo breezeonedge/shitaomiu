@@ -4,7 +4,7 @@
 
 layout: page
 title: 텍스트 프로필
-icon: far fa-user-circle
+icon: fa fa-user-circle-o
 permalink: profile_text.html
 ---
 

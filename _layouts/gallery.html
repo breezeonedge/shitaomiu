@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"/>
     <script src="{{ 'assets/js/scale.fix.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,6 +16,8 @@
     {% for js in page.cloudjs %}
       <script type="text/javascript" src="{{ js }}"></script>
     {% endfor %}
+    <script type="text/javascript" src="//unpkg.com/vue@2.5.17/dist/vue.js"></script>
+    <script type="text/javascript" src="//unpkg.com/vue-carousel@0.10.0/dist/vue-carousel.min.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -36,20 +38,66 @@
         </ul>
         {% endif %}
       </header>
+      <div id="artGallery"></div>
       <section>
+        {%if page.arts and site.data[page.arts] %}
+          {% assign arts = site.data[page.arts] %}
 
-        {% assign arts = site.data[page.arts] %}
-        {% for art in arts %}
-          <h1 id="{{ art.name }}">{{ art.name }}님</h1>
-          {% if art.link %}
-          <p><a href="{{ art.link.url }}">{{ art.link.title }}</a></p>
-          {% endif %}
-          {% for image in art.images %}
-          <p><img src="{{ image.path | prepend: 'assets/images/' | relative_url }}" title="Home"/></p>
+{% comment %}
+          {% for art in arts %}
+            <h1 id="{{ art.name }}">{{ art.name }}님</h1>
+            {% if art.link %}
+            <p><a href="{{ art.link.url }}">{{ art.link.title }}</a></p>
+            {% endif %}
+            {% for image in art.images %}
+            <p><img src="{{ image.path | prepend: 'assets/images/' | relative_url }}" title="Home"/></p>
+            {% endfor %}
+            <hr/>
           {% endfor %}
-          <hr/>
-        {% endfor %}
+{% endcomment %}
 
+          <script>
+
+            var arts = JSON.parse('{{ arts | jsonify }}');
+
+            window.onload = function() {
+
+              var baseUrl = "{{'assets/images' | relative_url }}/";
+
+              function buildSlideMarkup(arts) {
+                  var slideMarkup = '';
+                  var art, image;
+                  for (x in arts) {
+                    art = arts[x];
+                    for (y in art.images) {
+                      image = art.images[y];
+
+                      slideMarkup += '<slide>';
+                      slideMarkup += '<h1>' + art.name + '</h1>';
+                      if ( art.link != undefined) {
+                        slideMarkup += '<p><a href="' + art.link.url + '" target="_blank">' + art.link.title + '</a></p>';
+                      }
+                      slideMarkup += '<img src="' + baseUrl + image.path + '">';
+                      slideMarkup += '</slide>';
+                    }
+                  }
+                  console.log(slideMarkup);
+                  return slideMarkup;
+              };
+
+              var app = new Vue({
+                  el: '#artGallery',
+                  components: {
+                      'carousel': VueCarousel.Carousel,
+                      'slide': VueCarousel.Slide
+                  },
+                  template: '<div><carousel :autoplay="true" :navigationEnabled="true" :loop="true" :perPage="1" :paginationEnabled="false">' + buildSlideMarkup(arts) + '</carousel></div>'
+              });
+
+            }
+          </script>
+        {% endif %}
+      
       {{ content }}
 
       </section>
@@ -60,8 +108,8 @@
     {% endif %}
     <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
   </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
