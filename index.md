@@ -59,8 +59,6 @@ title: 소개
 
 # 팬 사이트
 
-[팀8 홈페이지](https://toyota-team8.jp/member/shitao_miu.php)
-
 [트위터](https://twitter.com/DC_miugall)
 
 [페이스북](https://www.facebook.com/shitaomiu.0403)

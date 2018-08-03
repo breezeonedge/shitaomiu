@@ -18,7 +18,7 @@ permalink: profile_text.html
 | 혈액형        | A형                 |       |
 | 별자리        | 양자리               |       |
 | 별명          | 미우, 미우짱, 미우미우  |       |
-| 소속그룹       | AKB48 팀 8 (2014~)  |       |
+| 소속그룹       | AKB48 팀 8 (2014~)  | [링크](https://toyota-team8.jp/member/shitao_miu.php)      |
 |              | AKB48 팀 A (2018~)  |       |
 | 소속사         | AKS                |       |
 
