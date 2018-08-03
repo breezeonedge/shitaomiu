@@ -55,13 +55,14 @@ title: 소개
 [팬 이미지]({{ site.baseurl }}{% link pages/fan_art.md %})
 
 [팬 슬로건]({{ site.baseurl }}{% link pages/fan_slogan.md %})
+
 ---
 
 # 팬 사이트
 
-[트위터](https://twitter.com/DC_miugall)
+[한국 팬 트위터](https://twitter.com/DC_miugall)
 
-[페이스북](https://www.facebook.com/shitaomiu.0403)
+[한국 팬 페이스북](https://www.facebook.com/shitaomiu.0403)
 
 [디시인사이드 갤러리](http://shitaomiu.com)
 

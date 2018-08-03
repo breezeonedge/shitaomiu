@@ -18,10 +18,10 @@ cloudjs:
 | 8            | 예정               |       | 2차 순위발표             |
 | 7            | 순위 미공개          |       | 현장 투표 / 댄스 16등 / 369표        |
 | 6            | 순위 미공개          |       |                       |
-| 5            | 36                | <span style="color:red"><i class="fas fa-arrow-up" aria-hidden="true" alt="트위터" ></i> 3</span>    | 58명, 1차 순위발표 / 160,881표  |
+| 5            | 36                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="트위터" ></i> 3</span>    | 58명, 1차 순위발표 / 160,881표  |
 | 4            | 순위 미공개          |       |                       |
-| 3            | 39                | <span style="color:red"><i class="fas fa-arrow-up" aria-hidden="true" alt="트위터" ></i> 6</span>    | 96명, 현장 투표 / 116표        |
-| 2            | 45                | <span style="color:blue"><i class="fas fa-arrow-down" aria-hidden="true" alt="트위터" ></i> 4</span>    | 96명                    |
+| 3            | 39                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="트위터" ></i> 6</span>    | 96명, 현장 투표 / 116표        |
+| 2            | 45                | <span style="color:rgba(54, 162, 235, 1)"><i class="fa fa-arrow-circle-down" aria-hidden="true" alt="트위터" ></i> 4</span>    | 96명                    |
 | 1            | 41                |       | 96명                    |
 
 <canvas id="mnetChart" width="400" height="200"></canvas>
