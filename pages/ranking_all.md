@@ -50,7 +50,7 @@ window.onload = function() {
 
             r = parseInt(rank.r);
 
-            if (r <= 22 && r >= 10) {
+            if (r < 22 && r >= 10) {
                 finalRanks.push(rank.t);
             }
             count = parseInt(rank.c.replace(',',''));
