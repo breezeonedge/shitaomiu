@@ -15,18 +15,20 @@ cloudjs:
 
 | 회차          | 순위               | 등락   | 득표 및 비고 |
 |:-------------|:------------------|:------|:----------|
-| 8            | 예정               |       | 2차 순위발표             |
+| 8            | 22               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 14</span> | 30명, 2차 순위발표 / 562,216표 |
 | 7            | 순위 미공개          |       | 현장 투표 / 댄스 16등 / 369표        |
 | 6            | 순위 미공개          |       |                       |
-| 5            | 36                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="트위터" ></i> 3</span>    | 58명, 1차 순위발표 / 160,881표  |
+| 5            | 36                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 3</span>    | 58명, 1차 순위발표 / 160,881표  |
 | 4            | 순위 미공개          |       |                       |
-| 3            | 39                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="트위터" ></i> 6</span>    | 96명, 현장 투표 / 116표        |
-| 2            | 45                | <span style="color:rgba(54, 162, 235, 1)"><i class="fa fa-arrow-circle-down" aria-hidden="true" alt="트위터" ></i> 4</span>    | 96명                    |
+| 3            | 39                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 6</span>    | 96명, 현장 투표 / 116표        |
+| 2            | 45                | <span style="color:rgba(54, 162, 235, 1)"><i class="fa fa-arrow-circle-down" aria-hidden="true" alt="하락" ></i> 4</span>    | 96명                    |
 | 1            | 41                |       | 96명                    |
 
 <canvas id="mnetChart" width="400" height="200"></canvas>
 
 > 출처 : [엠넷 프로듀스48 프로필](http://produce48.mnet.com/pc/profile/23)
+
+
 
 ---
 
@@ -75,13 +77,13 @@ window.onload = function() {
     var mnetChart = new Chart(mnetCtx, {
         type: 'bar',
         data: {
-            labels: ["1주차", "2주차", "3주차", "4주차", "5주차", "6주차", "7주차", "8주차"],
+            labels: ["1회차", "2회차", "3회차", "4회차", "7회차"],
             datasets: [{
                 type: 'line',
                 label: '순위',
                 fill: false,
                 spanGaps: true,
-                data: [41, 45, 39, NaN, 36, NaN, NaN, NaN],
+                data: [41, 45, 39, 36, 22],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 datalabels: {
@@ -89,21 +91,6 @@ window.onload = function() {
                     anchor: 'end',
                     formatter: function(value, context) {
                         return value + '위';
-                    }
-                }
-            },{
-                type: 'line',
-                label: '100분위',
-                fill: false,
-                spanGaps: true,
-                data: [(96-41)/96*100, (96-45)/96*100, (96-39)/96*100, NaN, (58-36)/58*100, NaN, NaN, NaN],
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgba(54, 162, 235, 1)',
-                datalabels: {
-                    align: 'start',
-                    anchor: 'start',
-                    formatter: function(value, context) {
-                        return Math.round(value) + '%';
                     }
                 }
             }]
@@ -126,29 +113,15 @@ window.onload = function() {
                     },
                     ticks: {
                         display: true,
+/*
                         min: 1,
                         max: 96,
+*/
                         reverse: true,
                         beginAtZero: false,
                     },
                     gridLines: {
                         drawOnChartArea: true
-                    }
-                }, {
-                    type: 'linear',
-                    position: 'right',
-                    scaleLabel: {
-                        display: false,
-                    },
-                    ticks: {
-                        display: false,
-                        min: 0,
-                        max: 100,
-                        reverse: false,
-                        beginAtZero: true,
-                    },
-                    gridLines: {
-                        display: false
                     }
                 }],
                 xAxes: [{
