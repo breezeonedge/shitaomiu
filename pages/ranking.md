@@ -15,7 +15,8 @@ cloudjs:
 
 | 회차          | 순위               | 등락   | 득표 및 비고 |
 |:-------------|:------------------|:------|:----------|
-| 8            | 22               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 14</span> | 30명, 2차 순위발표 / 562,216표 |
+| 2018-08-07   | 6               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 이 XX |
+| 8            | 22               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 14</span> | 30명, 2차 순위발표 / 남성 6위 / 562,216표 |
 | 7            | 순위 미공개          |       | 현장 투표 / 댄스 16등 / 369표        |
 | 6            | 순위 미공개          |       |                       |
 | 5            | 36                | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 3</span>    | 58명, 1차 순위발표 / 160,881표  |
@@ -77,13 +78,13 @@ window.onload = function() {
     var mnetChart = new Chart(mnetCtx, {
         type: 'bar',
         data: {
-            labels: ["1회차", "2회차", "3회차", "4회차", "7회차"],
+            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "08-07"],
             datasets: [{
                 type: 'line',
                 label: '순위',
                 fill: false,
                 spanGaps: true,
-                data: [41, 45, 39, 36, 22],
+                data: [41, 45, 39, 36, 22, 6],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 datalabels: {
