@@ -15,7 +15,8 @@ cloudjs:
 
 | 회차          | 순위               | 등락   | 득표 및 비고 |
 |:-------------|:------------------|:------|:----------|
-| 2018-08-07   | 6               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 이 XX |
+| 2018-08-11   | 6               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 -_- |
+| 2018-08-07   | 6               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 -_- |
 | 8            | 22               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 14</span> | 30명, 2차 순위발표 / 남성 6위 / 562,216표 |
 | 7            | 순위 미공개          |       | 현장 투표 / 댄스 16등 / 369표        |
 | 6            | 순위 미공개          |       |                       |
@@ -52,7 +53,8 @@ cloudjs:
 
 | 일자            | 단계                     |    비고           |
 |:---------------|:------------------------|:-----------------|
-| 2018-08-01     | 4차 / 1단계               | 미정              |
+| 2018-08-10     | 4차 / 2단계               | 미정              |
+| 2018-08-01     | 4차 / 1단계               | 9일              |
 | **2018-08-01** | **3차 달성 / 11일**        | **미미박스**       |
 | 2018-07-28     | 3차 / 3단계               | 04일              |
 | 2018-07-24     | 3차 / 2단계               | 04일              |
@@ -78,13 +80,13 @@ window.onload = function() {
     var mnetChart = new Chart(mnetCtx, {
         type: 'bar',
         data: {
-            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "08-07"],
+            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "08-07", "08-11"],
             datasets: [{
                 type: 'line',
                 label: '순위',
                 fill: false,
                 spanGaps: true,
-                data: [41, 45, 39, 36, 22, 6],
+                data: [41, 45, 39, 36, 22, 6, 6],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 datalabels: {
@@ -154,7 +156,7 @@ window.onload = function() {
             datasets: [{
                 type: 'bar',
                 label: '1단계',
-                data: [33, 10, 4, NaN, NaN],
+                data: [33, 10, 4, 9, NaN],
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgba(54, 162, 235, 1)',
     /*
