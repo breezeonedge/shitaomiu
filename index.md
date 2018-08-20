@@ -24,6 +24,8 @@ title: 소개
 
 [이미지]({{ site.baseurl }}{% link pages/profile_img.md %})
 
+[블로그]({{ site.baseurl }}{% link pages/akb_blog.md %})
+
 ---
 
 # 투표

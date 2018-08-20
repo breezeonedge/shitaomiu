@@ -1,6 +1,18 @@
-- name: karaagezj
+- name: 김챱챱
+  link:
+    title: 갤로그
+    url: http://gallog.dcinside.com/citricamino
+  images:
+    - path: fan_0109.png
+- name: niki@idol hell
   link:
     title: 트위터
+    url: https://twitter.com/naitowingu
+  images:
+    - path: fan_0107.jpg
+- name: karaagezj
+  link:
+    title: 인스타그램
     url: https://www.instagram.com/karaagezj
   images:
     - path: fan_0092.jpg
@@ -16,9 +28,11 @@
     - path: fan_0091.png
 - name: 무명의일러
   images:
-    - path: fan_0088.jpg
-    - path: fan_0015.jpg
-    - path: fan_0016.jpg
+    - path: fan_0110.jpg
+    - path: fan_0108.png
+    - path: fan_0088.png
+    - path: fan_0015.png
+    - path: fan_0016.png
     - path: fan_0071.jpg
     - path: fan_0072.jpg
     - path: fan_0073.jpg
