@@ -16,8 +16,8 @@ cloudjs:
 | 회차          | 순위               | 등락   | 득표 및 비고 |
 |:-------------|:------------------|:------|:----------|
 | 11           | 10               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 12</span> | 30명 / 261,023표 |
-| 2018-08-11   | 6               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 -_- |
-| 2018-08-07   | 6               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 -_- |
+| <span style="color:rgba(200,200,200,120)">2018-08-11</span>   | <span style="color:rgba(200,200,200,120)">6</span>               | <span style="color:rgba(200,200,200,120)">2차순위 대비</span> <span style="color:rgba(255,99,132,120)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | <span style="color:rgba(200,200,200,120)">30명, 속보 / 안준영 -_-</span> |
+| <span style="color:rgba(200,200,200,120)">2018-08-07</span>   | <span style="color:rgba(200,200,200,120)">6</span>               | <span style="color:rgba(200,200,200,120)">2차순위 대비</span> <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | <span style="color:rgba(200,200,200,120)">30명, 속보 / 안준영 -_-<span> |
 | 8            | 22               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 14</span> | 30명, 2차 순위발표 / 남성 6위 / 562,216표 |
 | 7            | 순위 미공개          |       | 현장 투표 / 댄스 16등 / 369표        |
 | 6            | 순위 미공개          |       |                       |
@@ -84,13 +84,13 @@ window.onload = function() {
     var mnetChart = new Chart(mnetCtx, {
         type: 'bar',
         data: {
-            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "08-07", "08-11", "11회차"],
+            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "11회차"],
             datasets: [{
                 type: 'line',
                 label: '순위',
                 fill: false,
                 spanGaps: true,
-                data: [41, 45, 39, 36, 22, 6, 6, 10],
+                data: [41, 45, 39, 36, 22, 10],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 datalabels: {
