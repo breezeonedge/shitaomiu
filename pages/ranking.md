@@ -15,6 +15,7 @@ cloudjs:
 
 | 회차          | 순위               | 등락   | 득표 및 비고 |
 |:-------------|:------------------|:------|:----------|
+| 11           | 10               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 12</span> | 30명 / 261,023표 |
 | 2018-08-11   | 6               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 -_- |
 | 2018-08-07   | 6               | 2차순위 대비 <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 16</span> | 30명, 속보 / 안준영 -_- |
 | 8            | 22               | <span style="color:rgba(255,99,132,1)"><i class="fa fa-arrow-circle-up" aria-hidden="true" alt="상승" ></i> 14</span> | 30명, 2차 순위발표 / 남성 6위 / 562,216표 |
@@ -83,13 +84,13 @@ window.onload = function() {
     var mnetChart = new Chart(mnetCtx, {
         type: 'bar',
         data: {
-            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "08-07", "08-11"],
+            labels: ["1회차", "2회차", "3회차", "4회차", "7회차", "08-07", "08-11", "11회차"],
             datasets: [{
                 type: 'line',
                 label: '순위',
                 fill: false,
                 spanGaps: true,
-                data: [41, 45, 39, 36, 22, 6, 6],
+                data: [41, 45, 39, 36, 22, 6, 6, 10],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 datalabels: {

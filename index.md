@@ -30,13 +30,13 @@ title: 소개
 
 # 투표
 
-[엠넷 투표](http://produce48.mnet.com/pc/vote) (2차 순위발표 이후)
+[엠넷 투표](http://produce48.mnet.com/pc/vote)
 
-[지마켓 모바일 투표](http://m.gmarket.co.kr/event/2018/06/0601_produce/vote.asp) (2차 순위발표 이후)
+[지마켓 모바일 투표](http://m.gmarket.co.kr/event/2018/06/0601_produce/vote.asp)
 
-[국프의 정원 후원](https://produce48.kr/m48_detail.php?idx=31&cate=hug) (2차 순위발표 이후)
+[국프의 정원 후원](https://produce48.kr/m48_detail.php?idx=31&cate=hug)
 
-[투표가이드](https://docs.google.com/document/d/10Bg1XA91uq4hBnx1so26qAUNVXBRztuSPv6lc0LMgKw/edit?usp=sharing) (가능)
+[투표가이드](https://docs.google.com/document/d/10Bg1XA91uq4hBnx1so26qAUNVXBRztuSPv6lc0LMgKw/edit?usp=sharing)
 
 ---
 
